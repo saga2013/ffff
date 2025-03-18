@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background-color: rgb(4, 59, 4);
+
+}
+.main{
+    width: 550px;
+    height: 450px;
+    flex-direction: column;
+    margin: 80px auto;
+    padding: 40px 24px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px black ;
+    background-color: white;
+}
+.main h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.main input{
+    width: 400px;
+    height: 60px;
+    margin-bottom: 30px;
+}
+
+.main select{
+    height: 60px;
+    margin-bottom: 20px;
+    margin-right: 80px;
+}
+
+.main button{
+    height: 60px;
+
+}
+.result{
+    margin-left: 100px;
+}
